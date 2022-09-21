@@ -1,7 +1,11 @@
 # NUMERO6 Telephone webRTC - Bonjour chez vous !
  
+ Site en construction, git hub in building process
+ Contributors, testers , experiencers, company projects are welcome
+ A lot of free software technology inside but you can easilly use, report issues and contribute to enhacements
  
-## Sur Ubuntu 20.04 et Ubuntu 22.04
+ 
+## Ubuntu 20.04 & Ubuntu 22.04
 Packages needed
 
 ##Run the following commands before using NUMERO6_FS
@@ -13,7 +17,9 @@ apt install fbi -y
 apt install qrencode -y
 apt install curl -y
 
-
+Then download file NUMERO6_FS, it's a binary so you have to chmod +x NUMERO6_FS
+Execute help ./NUMERO6_FS -h 
+To start a Tel sessions just start with no option : ./NUMERO6_FS it will start and generate corresponding QR Code
 
 ## RaspBerry PI3 & PI4
 
