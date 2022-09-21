@@ -8,3 +8,4 @@ apt install xvfb -y
 apt install pulseaudio -y
 apt install fbi -y
 apt install qrencode -y
+apt install curl -y
