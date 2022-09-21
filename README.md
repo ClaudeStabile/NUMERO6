@@ -30,7 +30,9 @@ A TV HDMI monitor, only to get your URL You can also go to https://tel,free-solu
 
 
 1-Install balena etcher on your computer from https://www.balena.io/etcher/
+
 2-Burn a 16GB or + microSD card with the distro at URL : http://green-spider.free-solutions.org/NUMERO6_RASP_PI.dd.gz
+
 3-Startup you RaspBerry PI with freshly burn microSD card
 
 
