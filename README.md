@@ -7,7 +7,7 @@ Site GitHub en construction, à suivre...
 Testeurs , experienceurs, particuliers, entreprises et projects sont les bienvenus.
 Un concentré de technlogies opensource est utilisé pour ce projet. Merci de bien vouloir contribuer en ouvrant des issues et bugs
 
-##### But : Remplacer le poste de telephone fixe par une technologie bien plus avancée. Le WebRTC est une disruption majeure dans notre façon de communiquer et vous utilisez déjà tous cette technologie. Appliquer les même technologies au Tel Fixe représente une disruption et une évolution majeure.
+##### But : Remplacer le poste de telephone fixe par une technologie bien plus avancée. Le WebRTC est une disruption majeure dans notre façon de communiquer et vous utilisez déjà tous cette technologie. Appliquer les mêmes technologies au Tel Fixe représente une disruption et une évolution majeure.
 Tout deviens ultra simplissible et d'énormes avantages en résultent.
 
 Certains de mes clients utilisent déjà en entreprise, j'ai aujourd'hui la possibilité d'offrir cette fonctionalité à tous. Les Call sont volontairement limités à 2 participants. 
