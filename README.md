@@ -30,6 +30,7 @@ Tout le monde est le bienvenu pour contribuer, introduire des idées et ou aider
 
 # Ubuntu 20.04 & Ubuntu 22.04
 ## Packages nécessaires
+- chromium-browser - vfb -y apt install pulseaudio -y apt install fbi -y apt install qrencode -y apt install curl -y
 
 #### Executez les commandes suivantes pour installer les packages requis pour NUMERO6_FS
 
