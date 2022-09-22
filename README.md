@@ -13,10 +13,13 @@ Beaucoup de technlogies opensource sont utilisés pour ce projet. Merci de bien 
 
 apt install chromium-browser -y apt install xvfb -y apt install pulseaudio -y apt install fbi -y apt install qrencode -y apt install curl -y
 
-Then download file NUMERO6_FS, it's a binary so you have to chmod +x NUMERO6_FS Execute help ./NUMERO6_FS -h To start a Tel sessions just start with no option : ./NUMERO6_FS it will start and generate corresponding QR Code
+Puis téléchargez l'executable pour Ubuntu/debian/Mint NUMERO6_FS ici : (https://github.com/ClaudeStabile/NUMERO6
+C'est un binaire il vous faut donc faire un chmod +x NUMERO6_FS 
+  Voir l'aide ./NUMERO6_FS -h 
+  Demarrer votre telephone WebRTC : executez le script sans option : ./NUMERO6_FS Le système démarre et crée l'image avec le QRCode du Call
 
-## RaspBerry PI3 & PI4
-#Hardware you need A Raspberry PI 3 or 6 A microSD card of 16GB or more A USB Microphone or a camera with a micro included ==> plug on USB before booting up A speaker connect to the audio output : A basic speaker permanently connected will do optional : USB keyboard & mouse A TV HDMI monitor, only to get your URL You can also go to https://tel,free-solutions.ch to find your PI in the list. So no TV is really needed
+# RaspBerry PI3 & PI4
+Hardware you need A Raspberry PI 3 or 6 A microSD card of 16GB or more A USB Microphone or a camera with a micro included ==> plug on USB before booting up A speaker connect to the audio output : A basic speaker permanently connected will do optional : USB keyboard & mouse A TV HDMI monitor, only to get your URL You can also go to https://tel,free-solutions.ch to find your PI in the list. So no TV is really needed
 
 1-Install balena etcher on your computer from https://www.balena.io/etcher/
 
