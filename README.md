@@ -40,13 +40,14 @@ Tout le monde est le bienvenu pour contribuer, introduire des idées et ou aider
 
 #### Executez les commandes suivantes pour installer les packages requis pour NUMERO6_FS
 
+>
 apt install chromium-browser -y 
 apt install xvfb -y 
 apt install pulseaudio -y 
 apt install fbi -y 
 apt install qrencode -y 
 apt install curl -y
-
+>
 Puis téléchargez l'executable pour Ubuntu/debian/Mint NUMERO6_FS ici : (https://github.com/ClaudeStabile/NUMERO6
 C'est un binaire il vous faut donc faire un chmod +x NUMERO6_FS 
   Voir l'aide ./NUMERO6_FS -h 
