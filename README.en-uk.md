@@ -32,7 +32,7 @@ A USB Microphone or a camera with a micro included ==> plug on USB before bootin
 A speaker connect to the audio output : A basic speaker permanently connected will do
 optional : 
 USB keyboard & mouse
-A TV HDMI monitor, only to get your URL You can also go to https://tel.free-solutions.ch to find your PI in the list. So no TV is really needed
+A TV HDMI monitor, only to get your URL You can also go to https://tel.free-solutions.org to find your PI in the list. So no TV is really needed
 
 
 
