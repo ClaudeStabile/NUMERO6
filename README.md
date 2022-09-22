@@ -41,7 +41,7 @@ Tout le monde est le bienvenu pour contribuer, introduire des idées et ou aider
 #### Executez les commandes suivantes pour installer les packages requis pour NUMERO6_FS
 
 
->'''apt install chromium-browser -y 
+>apt install chromium-browser -y 
 apt install xvfb -y 
 apt install pulseaudio -y 
 apt install fbi -y 
@@ -63,14 +63,13 @@ Hardware
 - Optionel : un clavier et une souris USB.
 - Optionel : Un écran TV HDMI monitor, Si vous n'avez pas de Display, vous pouvez aller sur https://tel.free-solutions.org pour retrouver votre URL dans la liste. Donc l'écran n'est pas forcément nécessaire !
 
-1-Install balena etcher on your computer from https://www.balena.io/etcher/
+1-Installez balena etcher sur votre PC/Mac depuis ici https://www.balena.io/etcher/
 
-2-Burn a 16GB or + microSD card with the distro at URL : http://green-spider.free-solutions.org/NUMERO6_RASP_PI.dd.gz
+2-Fabriquez votre carte microSD d'une capacité de 16GB or + avec balena etchet et l'URL : http://green-spider.free-solutions.org/NUMERO6_RASP_PI.dd.gz
 
-3-Startup you RaspBerry PI with freshly burn microSD card
+3-Démarrez votre RaspBerry PI avec votre carte microSD
 
-Video ici
-
-[![Watch the video](https://www.free-solutions.ch/clearspace/servlet/JiveServlet/previewBody/4823-102-1-8030/thumnailrasp.jpg)](https://www.free-solutions.ch/clearspace/servlet/JiveServlet/previewBody/4822-102-1-8026/Raspi3bootosp.webm)
+Voir le boot du RaspBerry dans la video ci-après
+[![Regardez la video](https://www.free-solutions.ch/clearspace/servlet/JiveServlet/previewBody/4823-102-1-8030/thumnailrasp.jpg)](https://www.free-solutions.ch/clearspace/servlet/JiveServlet/previewBody/4822-102-1-8026/Raspi3bootosp.webm)
 
 4-Share URL or QR Code to call your RaspBerry
