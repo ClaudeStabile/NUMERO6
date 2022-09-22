@@ -27,7 +27,7 @@ C'est un binaire il vous faut donc faire un chmod +x NUMERO6_FS
   Demarrer votre telephone WebRTC : executez le script sans option : ./NUMERO6_FS Le système démarre et crée l'image avec le QRCode du Call
 
 # RaspBerry PI3 & PI4
-Hardware you need A Raspberry PI 3 or 6 A microSD card of 16GB or more A USB Microphone or a camera with a micro included ==> plug on USB before booting up A speaker connect to the audio output : A basic speaker permanently connected will do optional : USB keyboard & mouse A TV HDMI monitor, only to get your URL You can also go to https://tel.free-solutions.ch to find your PI in the list. So no TV is really needed
+Hardware you need A Raspberry PI 3 or 6 A microSD card of 16GB or more A USB Microphone or a camera with a micro included ==> plug on USB before booting up A speaker connect to the audio output : A basic speaker permanently connected will do optional : USB keyboard & mouse A TV HDMI monitor, only to get your URL You can also go to https://tel.free-solutions.org to find your PI in the list. So no TV is really needed
 
 1-Install balena etcher on your computer from https://www.balena.io/etcher/
 
