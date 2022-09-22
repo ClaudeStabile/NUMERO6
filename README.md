@@ -15,7 +15,8 @@ Certains de mes clients utilisent déjà en entreprise, j'ai aujourd'hui la poss
 ## Avantage Tel WebRTC immédiats :
 
 - Communication gratuites et illimitées en durée quelque soit le pays
-- Plus de Numeros, juste à cliquer sur l'URL du call sur Android, Iphone ou PC & Mac
+- transforme votre TV en telephone gratuit et illimité avec un Raspberry PI
+- Plus de Numeros, pour vos contacts, juste à cliquer sur l'URL du call sur Android, Iphone ou PC & Mac
 - Sécurisé par défaut car limité et vérouillé à 2 utilisateurs. Lorsque vous avez votre interlocuteur en ligne personne ne peut rejoindre le call.
 - Possibilité d'avoir un annuaire global des URL voir https://tel.free-solutions.org 
 - Ne consome que 2.5W en moy sur RaspBerry pour être en permanence joignable via une URL web
@@ -30,11 +31,21 @@ Tout le monde est le bienvenu pour contribuer, introduire des idées et ou aider
 
 # Ubuntu 20.04 & Ubuntu 22.04
 ## Packages nécessaires
-- chromium-browser - vfb -y apt install pulseaudio -y apt install fbi -y apt install qrencode -y apt install curl -y
+- chromium-browser  
+- xvfb 
+- pulseaudio
+- fbi 
+- qrencode
+- curl
 
 #### Executez les commandes suivantes pour installer les packages requis pour NUMERO6_FS
 
-apt install chromium-browser -y apt install xvfb -y apt install pulseaudio -y apt install fbi -y apt install qrencode -y apt install curl -y
+apt install chromium-browser -y 
+apt install xvfb -y 
+apt install pulseaudio -y 
+apt install fbi -y 
+apt install qrencode -y 
+apt install curl -y
 
 Puis téléchargez l'executable pour Ubuntu/debian/Mint NUMERO6_FS ici : (https://github.com/ClaudeStabile/NUMERO6
 C'est un binaire il vous faut donc faire un chmod +x NUMERO6_FS 
@@ -42,7 +53,14 @@ C'est un binaire il vous faut donc faire un chmod +x NUMERO6_FS
   Demarrer votre telephone WebRTC : executez le script sans option : ./NUMERO6_FS Le système démarre et crée l'image avec le QRCode du Call
 
 # RaspBerry PI3 & PI4
-Hardware you need A Raspberry PI 3 or 6 A microSD card of 16GB or more A USB Microphone or a camera with a micro included ==> plug on USB before booting up A speaker connect to the audio output : A basic speaker permanently connected will do optional : USB keyboard & mouse A TV HDMI monitor, only to get your URL You can also go to https://tel.free-solutions.org to find your PI in the list. So no TV is really needed
+Hardware 
+- Il vous faut PI3 ou un PI4 une carte microSD de 16GB ou plus.
+- Un microphone USB ou une camera avec un micro inclu ==> 
+- branchez vos périphériques USB avant de booter.
+- Un haut parleur standard connecté sur la sortie audio en filaire : Un simple HP permet d'avoir l'audio connecté tout le temps
+- Une connexion internet via RJ45 / Pas de WIFI 
+- Optionel : un clavier et une souris USB.
+- Optionel : Un écran TV HDMI monitor, Si vous n'avez pas de Display, vous pouvez aller sur https://tel.free-solutions.org pour retrouver votre URL dans la liste. Donc l'écran n'est pas forcément nécessaire !
 
 1-Install balena etcher on your computer from https://www.balena.io/etcher/
 
