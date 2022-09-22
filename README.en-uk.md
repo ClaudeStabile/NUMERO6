@@ -10,7 +10,7 @@
 ## Ubuntu 20.04 & Ubuntu 22.04
 Packages needed
 
-##Run the following commands before using NUMERO6_FS
+## Run the following commands before using NUMERO6_FS
 
 apt install chromium-browser -y
 apt install xvfb -y
