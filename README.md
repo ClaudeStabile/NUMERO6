@@ -40,7 +40,7 @@ Tout le monde est le bienvenu pour contribuer, introduire des idées et ou aider
 
 #### Executez les commandes suivantes pour installer les packages requis pour NUMERO6_FS
 
-
+### Pre-requis
 >apt install chromium-browser -y 
 apt install xvfb -y 
 apt install pulseaudio -y 
@@ -48,10 +48,12 @@ apt install fbi -y
 apt install qrencode -y 
 apt install curl -y
 
-Puis téléchargez l'executable pour Ubuntu/debian/Mint NUMERO6_FS ici : (https://github.com/ClaudeStabile/NUMERO6
-C'est un binaire il vous faut donc faire un chmod +x NUMERO6_FS 
-  Voir l'aide ./NUMERO6_FS -h 
-  Demarrer votre telephone WebRTC : executez le script sans option : ./NUMERO6_FS Le système démarre et crée l'image avec le QRCode du Call
+### Installez et utilisez NUMERO6_FS
+- Téléchargez l'executable pour Ubuntu/debian/Mint NUMERO6_FS ici : (https://github.com/ClaudeStabile/NUMERO6
+- C'est un binaire il vous faut donc faire un >chmod +x NUMERO6_FS 
+- Voir l'aide >./NUMERO6_FS -h 
+- Démarrer votre telephone WebRTC : executez le script sans option : >./NUMERO6_FS Le système démarre et crée l'image avec le QRCode du Call
+- Pour arrêtez votre telephone WebRTC >./NUMERO6_FS
 
 # RaspBerry PI3 & PI4
 Hardware 
