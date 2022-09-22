@@ -76,4 +76,4 @@ Voir le boot du RaspBerry dans la video ci-après
 
 4-Partagez l'URL ou le QR Code à vos contact pour qu'il puissent vous joindre
 
-## ATTENTION : Volontairement je change d'URL à chaque restart du PI ou du call sur Ubuntu. Ce n'est pas le cas pour mes client qui peuvent avoir une URL de call dédiée par collaborateur
+## ATTENTION : Volontairement je change d'URL à chaque restart du PI ou du call sur Ubuntu. Ce n'est pas le cas pour mes clients qui peuvent avoir une URL de call dédiée par collaborateur
