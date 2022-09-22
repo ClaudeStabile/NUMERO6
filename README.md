@@ -22,7 +22,7 @@ Certains de mes clients utilisent déjà en entreprise, j'ai aujourd'hui la poss
 - Rien à installer pour vos contacts juste un click sur l'URL
 - Les communications audio sont encryptés par défaut/https contrairement à la téléphonie standard
 - Permet de faire de la voice over IP sans complexité avec un très haute qualité audio
-- Les liaison son P2P la plupart du temps si vous utilisez un browser basé sur chromium.
+- Les liaisons sont P2P la plupart du temps si vous utilisez un browser basé sur chromium.
 
 
 ## Developpeurs et contributeurs :
