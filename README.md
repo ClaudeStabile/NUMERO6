@@ -5,20 +5,24 @@
 
 Site GitHub en construction, à suivre...
 Testeurs , experienceurs, particuliers, entreprises et projects sont les bienvenus.
-Un concentré de technlogies opensource est utilisé pour ce projet. Merci de bien vouloir contribuer en ouvrant des issues et bugs
+Un concentré de technlogies opensource est utilisé pour ce projet. Merci de bien vouloir contribuer en ouvrant des issues et bugs.
 
 ##### But : Remplacer le poste de telephone fixe par une technologie bien plus avancée. Le WebRTC est une disruption majeure dans notre façon de communiquer et vous utilisez déjà tous cette technologie. Appliquer les mêmes technologies au Tel Fixe représente une disruption et une évolution majeure.
 Tout deviens ultra simplissible et d'énormes avantages en résultent.
 
-Certains de mes clients utilisent déjà en entreprise, j'ai aujourd'hui la possibilité d'offrir cette fonctionalité à tous. Les Call sont volontairement limités à 2 participants. 
+Certains de mes clients utilisent déjà en entreprise, j'ai aujourd'hui la possibilité d'offrir cette fonctionalité à tous. Les Call sont volontairement limités à 2 participants. J'utilise le backend tel.free-solutions.org d'autre
 
 ## Avantage Tel WebRTC immédiats :
 
 - Communication gratuites et illimitées en durée quelque soit le pays
 - Plus de Numeros, juste à cliquer sur l'URL du call sur Android, Iphone ou PC & Mac
+- Sécurisé par défaut car limité et vérouillé à 2 utilisateurs. Lorsque vous avez votre interlocuteur en ligne personne ne peut rejoindre le call.
 - Possibilité d'avoir un annuaire global des URL voir https://tel.free-solutions.org 
 - Ne consome que 2.5W en moy sur RaspBerry pour être en permanence joignable via une URL web
 - Rien à installer pour vos contacts juste un click sur l'URL
+- Les communications audio sont encryptés par défaut/https contrairement à la téléphonie standard
+- Permet de faire de la voice over IP sans complexité avec un très haute qualité audio
+- Les liaison son P2P la plupart du temps si vous utilisez un browser basé sur chromium.
 
 
 ## Developpeurs et contributeurs :
