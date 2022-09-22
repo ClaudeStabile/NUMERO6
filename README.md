@@ -6,10 +6,10 @@ Site GitHub en construction, à suivre. Testeurs , experienceurs, particulier, e
 Beaucoup de technlogies opensource sont utilisés pour ce projet. Merci de bien vouloir contribuer en ouvrant des issues et bugs
 
 
-## Ubuntu 20.04 & Ubuntu 22.04
-Packages nécessaires
+# Ubuntu 20.04 & Ubuntu 22.04
+## Packages nécessaires
 
-# Executez les commandes suivantes pour installer les packages requis pour NUMERO6_FS
+#### Executez les commandes suivantes pour installer les packages requis pour NUMERO6_FS
 
 apt install chromium-browser -y apt install xvfb -y apt install pulseaudio -y apt install fbi -y apt install qrencode -y apt install curl -y
 
