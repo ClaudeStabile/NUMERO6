@@ -1,12 +1,12 @@
 # NUMERO6 Telephone WebRTC - Bonjour chez vous !
 
+[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/ClaudeStabile/NUMERO6/blob/main/README.en-uk.md)
+[![fr-ch](https://img.shields.io/badge/lang-fr--ch-green.svg)](https://github.com/ClaudeStabile/NUMERO6/blob/main/README.md)
+
 #### But : Remplacer le poste de telephone fixe par une technologie bien plus avancée. Le WebRTC est une disruption majeure dans notre façon de communiquer et vous utilisez déjà tous cette technologie. Appliquer les même technologies au Tel Fixe représente une disruption et une évolution majeure.
 Tout deviens ultra simplissible et d'enormes avantages en résultent.
 
 ## Avantage Tel WebRTC
-
-[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/ClaudeStabile/NUMERO6/blob/main/README.en-uk.md)
-[![fr-ch](https://img.shields.io/badge/lang-fr--ch-green.svg)](https://github.com/ClaudeStabile/NUMERO6/blob/main/README.md)
 
 Site GitHub en construction, à suivre...
 Testeurs , experienceurs, particuliers, entreprises et projects sont les bienvenus.
