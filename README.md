@@ -2,10 +2,12 @@
 [![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/ClaudeStabile/NUMERO6/blob/main/README.en-uk.md)
 [![fr-ch](https://img.shields.io/badge/lang-fr--ch-green.svg)](https://github.com/ClaudeStabile/NUMERO6/blob/main/README.md)
 
-Site en construction, git hub in building process Contributors, testers , experiencers, company projects are welcome A lot of free software technology inside but you can easilly use, report issues and contribute to enhacements
+Site GitHub en construction, à suivre. Testeurs , experienceurs, particulier, entreprises et projects sont les bienvenus.
+Beaucoup de technlogies opensource sont utilisés pour ce projet. Merci de bien vouloir contribuer en ouvrant des issues et bugs
 
-Ubuntu 20.04 & Ubuntu 22.04
-Packages needed
+
+Sur Ubuntu 20.04 & Ubuntu 22.04
+Packages nécessaires
 
 ## Run the following commands before using NUMERO6_FS
 
