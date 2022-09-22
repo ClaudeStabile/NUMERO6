@@ -49,7 +49,7 @@ apt install qrencode -y
 apt install curl -y
 
 ### Installez et utilisez NUMERO6_FS
-- Téléchargez l'executable pour Ubuntu/debian/Mint NUMERO6_FS ici : (https://github.com/ClaudeStabile/NUMERO6
+- Téléchargez l'executable pour Ubuntu/debian/Mint NUMERO6_FS ici : https://github.com/ClaudeStabile/NUMERO6
 - C'est un binaire il vous faut donc faire un >chmod +x NUMERO6_FS 
 - Voir l'aide >./NUMERO6_FS -h 
 - Démarrer votre telephone WebRTC : executez le script sans option : >./NUMERO6_FS Le système démarre et crée l'image avec le QRCode du Call
@@ -74,4 +74,6 @@ Hardware
 Voir le boot du RaspBerry dans la video ci-après
 [![Regardez la video](https://www.free-solutions.ch/clearspace/servlet/JiveServlet/previewBody/4823-102-1-8030/thumnailrasp.jpg)](https://www.free-solutions.ch/clearspace/servlet/JiveServlet/previewBody/4822-102-1-8026/Raspi3bootosp.webm)
 
-4-Share URL or QR Code to call your RaspBerry
+4-Partagez l'URL ou le QR Code à vos contact pour qu'il puissent vous joindre
+
+## ATTENTION : Volontairement je change d'URL à chaque restart du PI ou du call sur Ubuntu. Ce n'est pas le cas pour mes client qui peuvent avoir une URL de call dédiée par collaborateur
