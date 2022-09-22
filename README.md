@@ -51,4 +51,6 @@ Hardware you need A Raspberry PI 3 or 6 A microSD card of 16GB or more A USB Mic
 
 Video ici
 
+[![Watch the video](https://www.free-solutions.ch/clearspace/servlet/JiveServlet/previewBody/4823-102-1-8030/thumnailrasp.jpg)](https://www.free-solutions.ch/clearspace/servlet/JiveServlet/previewBody/4822-102-1-8026/Raspi3bootosp.webm)
+
 4-Share URL or QR Code to call your RaspBerry
