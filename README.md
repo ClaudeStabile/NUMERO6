@@ -12,7 +12,17 @@ Tout deviens ultra simplissible et d'énormes avantages en résultent.
 
 Certains de mes clients utilisent déjà en entreprise, j'ai aujourd'hui la possibilité d'offrir cette fonctionalité à tous. Les Call sont volontairement limités à 2 participants. 
 
-## Avantage Tel WebRTC
+## Avantage Tel WebRTC immédiats :
+
+- Communication gratuites et illimitées en durée quelque soit le pays
+- Plus de Numeros, juste à cliquer sur l'URL du call sur Android, Iphone ou PC & Mac
+- Possibilité d'avoir un annuaire global des URL voir https://tel.free-solutions.org 
+- Ne consome que 2.5W en moy sur RaspBerry pour être en permanence joignable via une URL web
+- Rien à installer pour vos contacts juste un click sur l'URL
+
+
+## Developpeurs et contributeurs :
+Tout le monde est le bienvenu pour contribuer, introduire des idées et ou aider à faire évoluer le code.
 
 # Ubuntu 20.04 & Ubuntu 22.04
 ## Packages nécessaires
