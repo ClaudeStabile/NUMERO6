@@ -37,6 +37,7 @@ Tout le monde est le bienvenu pour contribuer, introduire des idées et ou aider
 - fbi 
 - qrencode
 - curl
+- imagemagick
 
 #### Executez les commandes suivantes pour installer les packages requis pour NUMERO6_FS
 
@@ -47,6 +48,7 @@ apt install pulseaudio -y
 apt install fbi -y 
 apt install qrencode -y 
 apt install curl -y
+apt install imagemagick -y
 
 ### Installez et utilisez NUMERO6_FS
 - Téléchargez l'executable pour Ubuntu/debian/Mint NUMERO6_FS ici : https://github.com/ClaudeStabile/NUMERO6
