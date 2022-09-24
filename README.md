@@ -5,7 +5,7 @@
 
 Site GitHub en construction, à suivre...
 Testeurs , expérienceurs, particuliers, entreprises et projets sont les bienvenus.
-Un concentré de technlogies opensource est utilisé pour ce projet. Merci de bien vouloir contribuer en ouvrant des issues et bugs.
+Un concentré de technologies opensource est utilisé pour ce projet. Merci de bien vouloir contribuer en ouvrant des issues et bugs.
 
 ##### But : Remplacer le poste de téléphone fixe par une technologie bien plus avancée. Le WebRTC est une disruption majeure dans notre façon de communiquer et vous utilisez déjà tous cette technologie. Appliquer les mêmes technologies au Tel Fixe représente une disruption et une évolution majeure.
 Tout devient ultra simplissible et d'énormes avantages en résultent.
@@ -42,12 +42,12 @@ Tout le monde est le bienvenu pour contribuer, introduire des idées et ou aider
 #### Executez les commandes suivantes pour installer les packages requis pour NUMERO6_FS
 
 ### Pre-requis
->apt install chromium-browser -y 
-apt install xvfb -y 
-apt install pulseaudio -y 
-apt install fbi -y 
-apt install qrencode -y 
-apt install curl -y
+>apt install chromium-browser -y &&
+apt install xvfb -y &&
+apt install pulseaudio -y &&
+apt install fbi -y &&
+apt install qrencode -y &&
+apt install curl -y &&
 apt install imagemagick -y
 
 ### Installez et utilisez NUMERO6_FS
