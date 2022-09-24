@@ -10,7 +10,7 @@ fi
 while getopts 'lsh' OPTION; do
   case "$OPTION" in
     l)
-       export CurrentURL=`ps -ef | grep chromium | grep tel.free-solutions  | awk '{ print $14 }'` 
+       export CurrentURL=`ps -ef | grep chromium | grep tel.free-solutions  | awk '{ print $NF }'` 
        echo "Audio Conference currently running :"$CurrentURL
           exit 0
       ;;
