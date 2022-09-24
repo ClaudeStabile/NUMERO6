@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash 
 #
 #
 export PID=`ps -ef | grep chromium | grep media | grep tel.free-solutions | awk '{ print $2 }'`
@@ -71,5 +71,13 @@ convert ~/QRCode_Tel_Free_Solutions.png  -compose copy -bordercolor blue -resize
 mogrify ~/QRCode_Tel_Free_Solutions_Border.png -font helvetica -fill red -pointsize 52 -annotate +80+60 $URLName ~/QRCode_Tel_Free_Solutions_Border.png
 convert ~/QRCode_Tel_Free_Solutions_Border.png ~/New_logo_3d1_1200.png +smush -0 ~/QRCode_Tel_Free_Solutions.png
 mogrify ~/QRCode_Tel_Free_Solutions.png -resize 1920x1080 -font helvetica -fill black -pointsize 38 -annotate +1000+60 "Utilisez votre mobile\n pour aller sur l'URL de votre Tel Web privé\nScannez ce code QR et accedez directement !\n\n\Vous êtes maintenant joignable directement\n    via cette URL d'un simple click\n\ Sur Mobile ou ordinateur\n\n\n\n\n\n\n CTRL + ALT + DEL pour arrêter le raspberry\n\n ESC pour retourner au shell\n\n Votre téléphone web est prêt à l'usage"  ~/QRCode_Tel_Free_Solutions.png
+export ARCHOS=`uname -a | grep aarch64`
+echo "archos :"$ARCHOS
+if [ ! -z "$ARCHOS" ] 
+then
 sudo /usr/bin/fbi -T 1 ~/QRCode_Tel_Free_Solutions.png
+exit;
+else
+	echo "This is Ubuntu version, l'image avec le QRCode se trouve dans votre home directory"
+fi
 exit
