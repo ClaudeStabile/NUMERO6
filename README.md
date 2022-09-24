@@ -15,11 +15,11 @@ Certains de mes clients utilisent déjà en entreprise, j'ai aujourd'hui la poss
 ## Avantage Tel WebRTC immédiats :
 
 - Communications gratuites et illimitées en durée quelque soit le pays
-- transforme votre TV en téléphone gratuit et illimité avec un Raspberry PI
+- Transforme votre TV en téléphone gratuit et illimité avec un Raspberry PI
 - Plus de Numéros, pour vos contacts, juste à cliquer sur l'URL du call sur Android, Iphone ou PC & Mac
 - Sécurisé par défaut car limité et vérouillé à 2 utilisateurs. Lorsque vous avez votre interlocuteur en ligne personne ne peut rejoindre le call.
 - Possibilité d'avoir un annuaire global des URL voir https://tel.free-solutions.org 
-- Ne consome que 2.5W en moy sur RaspBerry pour être en permanence joignable via une URL web
+- Ne consome que 2.5W en moyenne sur RaspBerry pour être en permanence joignable via une URL web
 - Rien à installer pour vos contacts juste un click sur l'URL
 - Les communications audio sont encryptés par défaut/https contrairement à la téléphonie standard
 - Permet de faire de la voice over IP sans complexité avec une très haute qualité audio
@@ -55,17 +55,17 @@ apt install imagemagick -y
 - C'est un binaire il vous faut donc faire un >chmod +x NUMERO6_FS 
 - Voir l'aide >./NUMERO6_FS -h 
 - Démarrer votre téléphone WebRTC : exécutez le script sans option : >./NUMERO6_FS Le système démarre et crée l'image avec le QRCode du Call
-- Pour arrêtez votre téléphone WebRTC >./NUMERO6_FS
+- Pour arrêtez votre téléphone WebRTC >./NUMERO6_FS -s
 
 # RaspBerry PI3 & PI4
 Hardware 
 - Il vous faut PI3 ou un PI4 une carte microSD de 16GB ou plus.
 - Un microphone USB ou une camera avec un micro inclu ==> 
-- branchez vos périphériques USB avant de booter.
+- Branchez vos périphériques USB avant de booter.
 - Un haut parleur standard connecté sur la sortie audio en filaire : Un simple HP permet d'avoir l'audio connecté tout le temps
 - Une connexion internet via RJ45 / Pas de WIFI 
 - Optionel : un clavier et une souris USB.
-- Optionel : Un écran TV HDMI monitor, Si vous n'avez pas de Display, vous pouvez aller sur https://tel.free-solutions.org pour retrouver votre URL dans la liste. Donc l'écran n'est pas forcément nécessaire !
+- Optionel : Un écran TV HDMI monitor, si vous n'avez pas de Display, vous pouvez aller sur https://tel.free-solutions.org pour retrouver votre URL dans la liste. Donc l'écran n'est pas forcément nécessaire !
 
 1-Installez balena etcher sur votre PC/Mac depuis ici https://www.balena.io/etcher/
 
@@ -76,6 +76,6 @@ Hardware
 Voir le boot du RaspBerry dans la video ci-après
 [![Regardez la video](https://www.free-solutions.ch/clearspace/servlet/JiveServlet/previewBody/4823-102-1-8030/thumnailrasp.jpg)](https://www.free-solutions.ch/clearspace/servlet/JiveServlet/previewBody/4822-102-1-8026/Raspi3bootosp.webm)
 
-4-Partagez l'URL ou le QR Code à vos contact pour qu'ils puissent vous joindre
+4-Partagez l'URL ou le QR Code à vos contacts pour qu'ils puissent vous joindre
 
 ## ATTENTION : Volontairement je change d'URL à chaque restart du PI ou du call sur Ubuntu. Ce n'est pas le cas pour mes clients qui peuvent avoir une URL de call dédiée par collaborateur
