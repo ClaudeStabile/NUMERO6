@@ -59,7 +59,7 @@ apt install imagemagick -y
 
 # RaspBerry PI3 & PI4
 Hardware 
-- Il vous faut PI3 ou un PI4 une carte microSD de 16GB ou plus.
+- Il vous faut PI3 ou un PI4 une carte microSD de 32GB ou plus.
 - Un microphone USB ou une camera avec un micro inclu ==> 
 - Branchez vos périphériques USB avant de booter.
 - Un haut parleur standard connecté sur la sortie audio en filaire : Un simple HP permet d'avoir l'audio connecté tout le temps
