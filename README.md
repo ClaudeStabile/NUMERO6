@@ -76,6 +76,9 @@ Hardware
 
 3-Démarrez votre RaspBerry PI avec votre carte microSD
 
+LICENSE : Le script est sous Licence GNU et donc si vous utilisez ce script ou le binaire produit, vous devez fournir le script shell source ainsi que la license GNU/GPL de ce répertoire. Vous pouvez copier modifier redistribuer autant que vous voulez en respectant cette condition. Merci
+
+
 Voir le boot du RaspBerry dans la video ci-après
 [![Regardez la video](https://www.free-solutions.ch/clearspace/servlet/JiveServlet/previewBody/4823-102-1-8030/thumnailrasp.jpg)](https://www.free-solutions.ch/clearspace/servlet/JiveServlet/previewBody/4822-102-1-8026/Raspi3bootosp.webm)
 
