@@ -38,6 +38,7 @@ Tout le monde est le bienvenu pour contribuer, introduire des idées et ou aider
 - qrencode
 - curl
 - imagemagick
+- libttspico-utils
 
 #### Executez les commandes suivantes pour installer les packages requis pour NUMERO6_FS
 
