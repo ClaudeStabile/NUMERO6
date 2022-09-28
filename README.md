@@ -49,6 +49,7 @@ apt install fbi -y &&
 apt install qrencode -y &&
 apt install curl -y &&
 apt install imagemagick -y
+apt install libttspico-utils -y
 
 ### Installez et utilisez NUMERO6_FS
 - Téléchargez l'exécutable pour Ubuntu/Debian/Mint NUMERO6_FS ici : https://github.com/ClaudeStabile/NUMERO6

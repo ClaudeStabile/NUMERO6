@@ -1,4 +1,4 @@
-#!/bin/bash 
+#!/bin/bash
 #
 #
 export PID=`ps -ef | grep chromium | grep media | grep tel.free-solutions | awk '{ print $2 }'`
@@ -76,6 +76,12 @@ echo "archos :"$ARCHOS
 if [ ! -z "$ARCHOS" ] 
 then
 sudo /usr/bin/fbi -T 1 ~/QRCode_Tel_Free_Solutions.png
+pico2wave --lang="fr-FR" -w out.wav "Votre téléphone ouaibe R T C est maintenant joignable vi a h t t p s 2 points // telle point free tirêt solutions point org" && aplay out.wav 
+pico2wave --lang="fr-FR" -w out.wav "Votre meeting room est  " && aplay out.wav 
+pico2wave --lang="fr-FR" -w out.wav "`echo $COUNTRY` tirébas `echo $CITY` tiret bas `echo $RandomNumber`" && aplay out.wav
+pico2wave --lang="fr-FR" -w out.wav "Je répète `echo $COUNTRY` tirébas `echo $CITY` tiret bas `echo $RandomNumber`" && aplay out.wav
+sleep2 
+pico2wave --lang="fr-FR" -w out.wav "Allez sur h t t p s 2 points // telle point free tirêt solutions point org et recherchez votre U R L" && aplay out.wav 
 exit;
 else
 	echo "This is Ubuntu version, l'image avec le QRCode se trouve dans votre home directory"
