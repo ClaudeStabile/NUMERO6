@@ -31,7 +31,7 @@ Tout le monde est le bienvenu pour contribuer, introduire des idées et ou aider
 
 # Ubuntu 20.04 & Ubuntu 22.04
 ## Packages nécessaires
-- chromium-browser  
+- chromium-browser  : Il est IMPERATIF d'utiliser chromium avec le xvfb, pas de firefox dans le script shell, MERCI !
 - xvfb 
 - pulseaudio
 - fbi 
