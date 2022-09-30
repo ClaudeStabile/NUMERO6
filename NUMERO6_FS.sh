@@ -7,6 +7,7 @@ then
 	echo "Usage: $0 [no option start an audio call | -l list audiocall conf running | -s stop call process | -h help ]"
 	exit 0
 fi
+
 while getopts 'lsh' OPTION; do
   case "$OPTION" in
     l)
@@ -35,11 +36,13 @@ while getopts 'lsh' OPTION; do
       ;;
   esac
 done
+
 #if [ ! -z "$PID" ]
 #then 
 #	echo "There is already an audio call conference running, please stop it with "-s" option before re-starting"
 #	exit
 #fi
+
 Xvfb :1 -screen 0 '64x48x16' -ac &> /dev/null &
 export DISPLAY=:1
 xset -q &>/dev/null
@@ -48,10 +51,12 @@ xset -q &>/dev/null
 #Random number
 export RandomNumber=`tr -dc "[:digit:]" < /dev/urandom | head -c 4`
 # Get city & country
+
 geolocate(){ 
-export PubIP=`curl -s ifconfig.me`
-curl -s https://ipinfo.io/$PubIP | grep $1 | awk '{ print$2 }' | sed 's/\"//g' | sed 's/,//g'
+	export PubIP=`curl -s ifconfig.me`
+	curl -s https://ipinfo.io/$PubIP | grep $1 | awk '{ print$2 }' | sed 's/\"//g' | sed 's/,//g'
 }
+
 export CITY=`geolocate city`
 export COUNTRY=`geolocate country`
 #echo "ville :"$CITY
@@ -73,17 +78,19 @@ convert ~/QRCode_Tel_Free_Solutions_Border.png ~/New_logo_3d1_1200.png +smush -0
 mogrify ~/QRCode_Tel_Free_Solutions.png -resize 1920x1080 -font helvetica -fill black -pointsize 38 -annotate +1000+60 "Utilisez votre mobile\n pour aller sur l'URL de votre Tel Web privé\nScannez ce code QR et accedez directement !\n\n\Vous êtes maintenant joignable directement\n    via cette URL d'un simple click\n\ Sur Mobile ou ordinateur\n\n\n\n\n\n\n CTRL + ALT + DEL pour arrêter le raspberry\n\n ESC pour retourner au shell\n\n Votre téléphone web est prêt à l'usage"  ~/QRCode_Tel_Free_Solutions.png
 export ARCHOS=`uname -a | grep aarch64`
 echo "archos :"$ARCHOS
+
 if [ ! -z "$ARCHOS" ] 
 then
-sudo /usr/bin/fbi -T 1 ~/QRCode_Tel_Free_Solutions.png
-pico2wave --lang="fr-FR" -w out.wav "Votre téléphone ouaibe R T C est maintenant joignable vi a h t t p s 2 points // telle point free tirêt solutions point org" && aplay out.wav 
-pico2wave --lang="fr-FR" -w out.wav "Votre meeting room est  " && aplay out.wav 
-pico2wave --lang="fr-FR" -w out.wav "`echo $COUNTRY` tirébas `echo $CITY` tiret bas `echo $RandomNumber`" && aplay out.wav
-pico2wave --lang="fr-FR" -w out.wav "Je répète `echo $COUNTRY` tirébas `echo $CITY` tiret bas `echo $RandomNumber`" && aplay out.wav
-sleep2 
-pico2wave --lang="fr-FR" -w out.wav "Allez sur h t t p s 2 points // telle point free tirêt solutions point org et recherchez votre U R L" && aplay out.wav 
-exit;
+	sudo /usr/bin/fbi -T 1 ~/QRCode_Tel_Free_Solutions.png
+	pico2wave --lang="fr-FR" -w out.wav "Votre téléphone ouaibe R T C est maintenant joignable vi a h t t p s 2 points // telle point free tirêt solutions point org" && aplay out.wav 
+	pico2wave --lang="fr-FR" -w out.wav "Votre meeting room est  " && aplay out.wav 
+	pico2wave --lang="fr-FR" -w out.wav "`echo $COUNTRY` tirébas `echo $CITY` tiret bas `echo $RandomNumber`" && aplay out.wav
+	pico2wave --lang="fr-FR" -w out.wav "Je répète `echo $COUNTRY` tirébas `echo $CITY` tiret bas `echo $RandomNumber`" && aplay out.wav
+	sleep2 
+	pico2wave --lang="fr-FR" -w out.wav "Allez sur h t t p s 2 points // telle point free tirêt solutions point org et recherchez votre U R L" && aplay out.wav 
+	exit;
 else
 	echo "This is Ubuntu version, l'image avec le QRCode se trouve dans votre home directory"
 fi
+
 exit
