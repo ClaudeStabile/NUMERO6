@@ -84,4 +84,10 @@ Voir le boot du RaspBerry dans la video ci-après
 
 4-Partagez l'URL ou le QR Code à vos contacts pour qu'ils puissent vous joindre
 
-## ATTENTION : Volontairement je change d'URL à chaque restart du PI ou du call sur Ubuntu. Ce n'est pas le cas pour mes clients qui peuvent avoir une URL de call dédiée par collaborateur
+#### ATTENTION : Volontairement je change d'URL à chaque restart du PI ou du call sur Ubuntu. Ce n'est pas le cas pour mes clients qui peuvent avoir une URL de call dédiée par collaborateur
+
+### Sortie son Raspberry
+
+- Par défaut la sortie son est sur le port Audio
+- Vous pouvez Changer la sortie audio en lancant "sudo raspi-config" en aveugle au prompt puis "system options" puis "audio"
+- Pour acceder au terminal : ESC 
