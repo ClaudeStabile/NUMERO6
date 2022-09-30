@@ -86,7 +86,7 @@ then
 	pico2wave --lang="fr-FR" -w out.wav "Votre meeting room est  " && aplay out.wav 
 	pico2wave --lang="fr-FR" -w out.wav "`echo $COUNTRY` tirébas `echo $CITY` tiret bas `echo $RandomNumber`" && aplay out.wav
 	pico2wave --lang="fr-FR" -w out.wav "Je répète `echo $COUNTRY` tirébas `echo $CITY` tiret bas `echo $RandomNumber`" && aplay out.wav
-	sleep2 
+	sleep 1
 	pico2wave --lang="fr-FR" -w out.wav "Allez sur h t t p s 2 points // telle point free tirêt solutions point org et recherchez votre U R L" && aplay out.wav 
 	exit;
 else
