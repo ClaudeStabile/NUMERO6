@@ -91,3 +91,6 @@ Voir le boot du RaspBerry dans la video ci-après
 - Par défaut la sortie son est sur le port Audio
 - Vous pouvez Changer la sortie audio en lancant "sudo raspi-config" en aveugle au prompt puis "system options" puis "audio"
 - Pour acceder au terminal : ESC 
+- Vous pouvez aussi configurer le WIFI avec le menu raspi-config
+   Ensuite Reboot et votre Pi devien mobile une seule prise électrique et ça fonctionne !
+   
