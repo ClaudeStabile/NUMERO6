@@ -81,3 +81,15 @@ Hardware
 
 See the RaspBerry boot in the video below
 [![Watch the video](https://www.free-solutions.ch/clearspace/servlet/JiveServlet/previewBody/4823-102-1-8030/thumnailrasp.jpg)](https://www.free- solutions.ch/clearspace/servlet/JiveServlet/previewBody/4822-102-1-8026/Raspi3bootosp.webm)
+
+4-Share the URL or QR Code to your contacts so they can reach you
+
+#### ATTENTION: Voluntarily I change URL each time the PI or the call restart on Ubuntu. This is not the case for my clients who can have a dedicated call URL per employee
+
+### Raspberry sound output
+
+- By default the sound output is on the Audio port
+- You can change the audio output by launching "sudo raspi-config" blindly at the prompt then "system options" then "audio"
+- To access the terminal: ESC
+- You can also configure the WIFI with the raspi-config menu
+- After configuring WIFI, Reboot and your Pi becomes mobile, a single electrical outlet and it works!
