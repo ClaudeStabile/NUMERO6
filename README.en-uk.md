@@ -58,7 +58,7 @@ apt install libttspico-utils -y
 - It's a binary so you have to chmod +x ./NUMERO6_FS
 - See help ./NUMERO6_FS -h
 - Start your WebRTC phone: run the script without options: ./NUMERO6_FS The system starts and creates the image with the QRCode of the Call
-- To stop your WebRTC phone >./NUMERO6_FS -s
+- To stop your WebRTC phone ./NUMERO6_FS -s
 
 # RaspBerry PI3 & PI4
 Hardware
