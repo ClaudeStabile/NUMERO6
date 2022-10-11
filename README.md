@@ -55,8 +55,8 @@ apt install libttspico-utils -y
 
 ### Installez et utilisez NUMERO6_FS
 - Téléchargez l'exécutable pour Ubuntu/Debian/Mint NUMERO6_FS ici : https://github.com/ClaudeStabile/NUMERO6
-- C'est un binaire il vous faut donc faire un >chmod +x NUMERO6_FS 
-- Voir l'aide >./NUMERO6_FS -h 
+- C'est un binaire il vous faut donc faire un chmod +x ./NUMERO6_FS 
+- Voir l'aide ./NUMERO6_FS -h 
 - Démarrer votre téléphone WebRTC : exécutez le script sans option : >./NUMERO6_FS Le système démarre et crée l'image avec le QRCode du Call
 - Pour arrêtez votre téléphone WebRTC >./NUMERO6_FS -s
 
