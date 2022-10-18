@@ -32,10 +32,10 @@ Everyone is welcome to contribute, introduce ideas and or help to evolve the cod
 # Ubuntu 20.04 & Ubuntu 22.04
 ## Required Packages
 - chromium-browser: It is IMPERATIVE to use chromium with the xvfb, no firefox in the shell script, THANK YOU!
--xvfb
+- xvfb
 - pulseaudio
--fbi
--qrencode
+- fbi
+- qrencode
 - curl
 - imagemagick
 - libttspico-utils
@@ -43,7 +43,7 @@ Everyone is welcome to contribute, introduce ideas and or help to evolve the cod
 #### Execute the following commands to install the required packages for NUMERO6_FS
 
 ### Prerequisites
->apt install chromium-browser -y &&
+apt install chromium-browser -y &&
 apt install xvfb -y &&
 apt install pulseaudio -y &&
 apt install fbi -y &&
