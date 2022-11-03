@@ -3,7 +3,7 @@
 [![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/ClaudeStabile/NUMERO6/blob/main/README.en-uk.md)
 [![fr-ch](https://img.shields.io/badge/lang-fr--ch-green.svg)](https://github.com/ClaudeStabile/NUMERO6/blob/main/README.md)
 
-Site GitHub en construction, à suivre...
+
 Testeurs , expérienceurs, particuliers, entreprises et projets sont les bienvenus.
 Un concentré de technologies opensource est utilisé pour ce projet. Merci de bien vouloir contribuer en ouvrant des issues et bugs.
 
