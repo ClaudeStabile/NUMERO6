@@ -3,6 +3,7 @@
 [![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/ClaudeStabile/NUMERO6/blob/main/README.en-uk.md)
 [![fr-ch](https://img.shields.io/badge/lang-fr--ch-green.svg)](https://github.com/ClaudeStabile/NUMERO6/blob/main/README.md)
 
+[![screenshot14](https://user-images.githubusercontent.com/29485972/216614540-65fa3496-ae04-45f9-92b5-61112bf4cc4e.png)](http://green-spider.free-solutions.org/Webrtctel.webm)
 
 Testeurs , expérienceurs, particuliers, entreprises et projets sont les bienvenus.
 Un concentré de technologies opensource est utilisé pour ce projet. Merci de bien vouloir contribuer en ouvrant des issues et bugs.
