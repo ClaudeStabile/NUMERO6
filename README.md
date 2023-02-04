@@ -32,7 +32,7 @@ Tout le monde est le bienvenu pour contribuer, introduire des idées et ou aider
 
 # Ubuntu 20.04 & Ubuntu 22.04
 ## Packages nécessaires
-- chromium-browser  : Il est IMPERATIF d'utiliser chromium avec le xvfb, pas de firefox dans le script shell, MERCI !
+- chromium-browser  : Il est IMPERATIF d'utiliser chromium NON SNAP en package .deb avec le xvfb, pas de firefox dans le script shell, MERCI !
 - xvfb 
 - pulseaudio
 - fbi 
@@ -53,6 +53,7 @@ apt install curl -y &&
 apt install imagemagick -y
 apt install libttspico-utils -y
 
+# Vous pouvez télécharger le package chromium au format .deb depuis ici : http://green-spider.free-solutions.org/chromium-browser-stable.deb
 
 ### Installez et utilisez NUMERO6_FS
 - Téléchargez l'exécutable pour Ubuntu/Debian/Mint NUMERO6_FS ici : https://github.com/ClaudeStabile/NUMERO6
