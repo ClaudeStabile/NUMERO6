@@ -67,7 +67,7 @@ qrencode -s 6 -l H $URLName -o ~/QRCode_Tel_Free_Solutions.png
 #echo $RoomName
 #echo $URLName
 #echo "You are reacheable at this URL NOW ! : "$URLName
-DISPLAY=:1 /usr/bin/chromium-browser --incognito --noerrdialogs --disable-gpu --disable-crashpad --use-fake-ui-for-media-stream --window-size 64x48 --kiosk --display $URLName &>/dev/null & 
+DISPLAY=:1 /usr/bin/chromium-browser --incognito --noerrdialogs --disable-gpu --disable-crashpad --use-fake-ui-for-media-stream --window-size 64x48 --kiosk $URLName &>/dev/null & 
 echo "You are reacheable at this URL NOW ! :  "$URLName
 echo "Your URL QRcode image is named QRCode_Tel_Free_Solutions.png and located in your home directory"
 #
